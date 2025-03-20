@@ -23,5 +23,5 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
 })
 export class DatetimeComponent {
   value: Date | undefined;
-  disableInput = true;
+  disableInput = false;
 }
