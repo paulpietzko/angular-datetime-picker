@@ -3,7 +3,7 @@ import { OwlDateTimeModule, OwlNativeDateTimeModule, OWL_DATE_TIME_FORMATS, OwlD
 import { OwlDayJsDateTimeModule } from '@danielmoncada/angular-datetime-picker-dayjs-adapter';
 import { provideAnimations } from '@angular/platform-browser/animations';
 import { FormControl, ReactiveFormsModule } from '@angular/forms';
-import { CommonModule } from '@angular/common';;
+import { CommonModule } from '@angular/common';
 
 // See the Day.js docs for the meaning of these formats:
 // https://day.js.org/docs/en/display/format
@@ -36,7 +36,6 @@ export class AppComponent {
   dateControl = new FormControl({ value: null, disabled: true });
 
   dtCodeInputSig = viewChild<ElementRef<HTMLInputElement>>('dtCodeInput');
-
 
   ngAfterViewInit() {
     console.log("on init", this.dtCodeInputSig());
