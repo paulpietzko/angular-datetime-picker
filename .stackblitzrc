@@ -1,7 +1,6 @@
 {
-  "installDependencies": true,
-  "installCommand": "npm install --force",
-  "startCommand": "ng serve",
+  "installDependencies": false,
+  "startCommand": "npm install --force && ng serve",
   "env": {
       "NODE_ENV": "development"
   }
